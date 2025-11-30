@@ -1,0 +1,12 @@
+{
+  "name": "lean-core.ig",
+  "version": "0.1.0",
+  "canonical": "http://lean.sa/fhir/lean-core-ig",
+  "url": "http://lean.sa/fhir/ig/ImplementationGuide/lean-core.ig",
+  "title": "My FHIR Implementation Guide",
+  "description": "Generated from SUSHI",
+  "status": "draft",
+  "publisher": "Me",
+  "license": "MIT",
+  "FHIRVersion": "4.0.1"
+}

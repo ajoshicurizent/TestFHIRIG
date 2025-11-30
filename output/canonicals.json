@@ -1,0 +1,73 @@
+[
+  {
+    "id" : "LeanCapabilityStatement",
+    "type" : "CapabilityStatement",
+    "url" : "http://lean.sa/fhir/lean/core/CapabilityStatement/LeanCapabilityStatement",
+    "version" : "0.0.1",
+    "name" : "LeanCoreCapabilityStatement"
+  },
+  {
+    "id" : "lean-patient-gender-codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem",
+    "version" : "0.0.1",
+    "name" : "LeanPatientGenderCodeSystem"
+  },
+  {
+    "id" : "lean-patient-nationality-codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem",
+    "version" : "0.0.1",
+    "name" : "ISO3166Part1Alpha3",
+    "alt-urls" : ["urn:iso:std:iso:3166"]
+  },
+  {
+    "id" : "my.first.sushi.project",
+    "type" : "ImplementationGuide",
+    "url" : "http://lean.sa/fhir/lean/core/ImplementationGuide/my.first.sushi.project",
+    "version" : "0.0.1",
+    "name" : "MyfirstSUSHIProject"
+  },
+  {
+    "id" : "lean-core-patient",
+    "type" : "StructureDefinition",
+    "url" : "http://lean.sa/fhir/lean/core/StructureDefinition/lean-core-patient",
+    "version" : "0.0.1",
+    "name" : "LeanCorePatientProfile"
+  },
+  {
+    "id" : "lean-human-language-extension",
+    "type" : "StructureDefinition",
+    "url" : "http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension",
+    "version" : "0.0.1",
+    "name" : "LeanHumanLanguageExtension"
+  },
+  {
+    "id" : "lean-patient-gender-extension",
+    "type" : "StructureDefinition",
+    "url" : "http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-gender-extension",
+    "version" : "0.0.1",
+    "name" : "LeanGenderExtension"
+  },
+  {
+    "id" : "lean-patient-nationality-extension",
+    "type" : "StructureDefinition",
+    "url" : "http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-nationality-extension",
+    "version" : "0.0.1",
+    "name" : "LeanPatientNationalityExtension"
+  },
+  {
+    "id" : "lean-patient-gender-valueset",
+    "type" : "ValueSet",
+    "url" : "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset",
+    "version" : "0.0.1",
+    "name" : "LeanPatientGenderValueSet"
+  },
+  {
+    "id" : "lean-patient-nationality-valueset",
+    "type" : "ValueSet",
+    "url" : "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-nationality-valueset",
+    "version" : "0.0.1",
+    "name" : "LeanPatientNationalityValueSet"
+  }
+]

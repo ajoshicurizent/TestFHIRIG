@@ -1,0 +1,2 @@
+# My-first-SUSHI-Project
+Lean Core is a set of rules and best practices that help healthcare providers share patient information safely and efficiently across the Kingdom of Saudi Arabia. It uses the FHIR standard to align how data —such as patient records, medications, and lab results — is formatted and exchanged. These rules follow national requirements, especially the Saudi-Health-Data-Dictionary-v2 data sets, ensuring hospitals and clinics share the most critical health data.

@@ -1,0 +1,11 @@
+Output File                                                  Name                             Type        FSH File                                   Lines
+CapabilityStatement-LeanCapabilityStatement.json             LeanCapabilityStatement          Instance    LeanCoreCapabilityStatement.fsh            2 - 18
+CodeSystem-lean-patient-gender-codesystem.json               LeanPatientGenderCodeSystem      CodeSystem  codesystem-lean-patient-gender.fsh         3 - 15
+CodeSystem-lean-patient-nationality-codesystem.json          ISO3166Part1Alpha3               CodeSystem  codesystem-lean-patient-nationality.fsh    3 - 260
+Patient-patient-example-001.json                             patient-example-001              Instance    patient-resource-instance-example-001.fsh  3 - 43
+StructureDefinition-lean-core-patient.json                   LeanCorePatientProfile           Profile     LeanCorePatientStructureDefinition.fsh     5 - 47
+StructureDefinition-lean-human-language-extension.json       LeanHumanLanguageExtension       Extension   extension-human-language.fsh               8 - 16
+StructureDefinition-lean-patient-gender-extension.json       LeanGenderExtension              Extension   extension-patient-gender.fsh               3 - 11
+StructureDefinition-lean-patient-nationality-extension.json  LeanPatientNationalityExtension  Extension   extension-patient-nationality.fsh          3 - 16
+ValueSet-lean-patient-gender-valueset.json                   LeanPatientGenderValueSet        ValueSet    lean-patient-gender-valueset.fsh           3 - 9
+ValueSet-lean-patient-nationality-valueset.json              LeanPatientNationalityValueSet   ValueSet    lean-patient-nationality-valueset.fsh      3 - 9

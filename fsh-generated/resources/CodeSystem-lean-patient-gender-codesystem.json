@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "LeanPatientGenderCodeSystem",
+  "id": "lean-patient-gender-codesystem",
+  "title": "Gender codes (Saudi-Health-Data-Dictionary-v2 sex codes)",
+  "description": "Saudi-Health-Data-Dictionary-v2.pdf defined gender codes. Use these along with Patient.gender element.",
+  "url": "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Sex changed to Male"
+    },
+    {
+      "code": "B",
+      "display": "Sex changed to female"
+    },
+    {
+      "code": "C",
+      "display": "Not Completed"
+    },
+    {
+      "code": "F",
+      "display": "Female"
+    },
+    {
+      "code": "M",
+      "display": "Male"
+    },
+    {
+      "code": "K",
+      "display": "Unknown"
+    },
+    {
+      "code": "U",
+      "display": "Undetermined"
+    }
+  ],
+  "version": "0.0.1",
+  "copyright": "Used by permission of Lean Business Services. ",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "https://lean.sa/"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "count": 7
+}

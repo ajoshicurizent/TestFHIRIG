@@ -1,0 +1,44 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "LeanCapabilityStatement",
+  "url": "http://lean.sa/fhir/lean/core/CapabilityStatement/LeanCapabilityStatement",
+  "title": "Lean Core Capability Statement",
+  "description": "FHIR server shall behave in accordance of this capability statement.",
+  "format": [
+    "json"
+  ],
+  "rest": [
+    {
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+              "valueCode": "SHALL"
+            }
+          ],
+          "interaction": [
+            {
+              "code": "read"
+            }
+          ],
+          "searchParam": [
+            {
+              "name": "identifier",
+              "definition": "http://hl7.org/fhir/SearchParameter/Patient-identifier",
+              "type": "token"
+            }
+          ],
+          "type": "Patient",
+          "profile": "http://lean.sa/fhir/lean/core/StructureDefinition/lean-core-patient"
+        }
+      ],
+      "mode": "server"
+    }
+  ],
+  "name": "LeanCoreCapabilityStatement",
+  "status": "draft",
+  "kind": "requirements",
+  "fhirVersion": "4.0.1",
+  "date": "2025-11-23T12:34:56Z"
+}

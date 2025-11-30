@@ -1,0 +1,68 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lean-human-language-extension",
+  "url": "http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension",
+  "version": "0.0.1",
+  "name": "LeanHumanLanguageExtension",
+  "title": "Human Language Extension",
+  "status": "draft",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "https://lean.sa/"
+        }
+      ]
+    }
+  ],
+  "description": "The Human Language of the item, for example- the human language of the patient name.",
+  "copyright": "Used by permission of Lean Business Services. ",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "expression": "HumanName",
+      "type": "element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Human Language Extension",
+        "definition": "The Human Language of the item, for example- the human language of the patient name."
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/languages"
+        }
+      }
+    ]
+  }
+}

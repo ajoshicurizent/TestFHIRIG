@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LeanPatientNationalityValueSet",
+  "id": "lean-patient-nationality-valueset",
+  "title": "Nationality (ISO 3166-1 Alpha-3 Subset)",
+  "description": "ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.",
+  "url": "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-nationality-valueset",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "version": "0.0.1",
+  "copyright": "Used by permission of Lean Business Services. ",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "https://lean.sa/"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem"
+      }
+    ]
+  }
+}

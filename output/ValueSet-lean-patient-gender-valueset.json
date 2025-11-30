@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "lean-patient-gender-valueset",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet lean-patient-gender-valueset</b></p><a name=\"lean-patient-gender-valueset\"> </a><a name=\"hclean-patient-gender-valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-lean-patient-gender-codesystem.html\"><code>http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.0.1</span></li></ul></div>"
+  },
+  "url" : "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset",
+  "version" : "0.0.1",
+  "name" : "LeanPatientGenderValueSet",
+  "title" : "Gender (Saudi-Health-Data-Dictionary-v2 sex)",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-11-25T15:32:46+03:00",
+  "publisher" : "Lean Business Service, KSA",
+  "contact" : [{
+    "name" : "Lean Business Service, KSA",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "https://lean.sa/"
+    }]
+  }],
+  "description" : "ValueSet for the Saudi-Health-Data-Dictionary-v2 gender codes.",
+  "copyright" : "Used by permission of Lean Business Services. ",
+  "compose" : {
+    "include" : [{
+      "system" : "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"
+    }]
+  }
+}

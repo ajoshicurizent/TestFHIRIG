@@ -1,0 +1,20 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem",
+      "version" : "0.0.1",
+      "status" : "draft",
+      "name" : "LeanPatientGenderCodeSystem",
+      "title" : "Gender codes (Saudi-Health-Data-Dictionary-v2 sex codes)",
+      "description" : "Saudi-Health-Data-Dictionary-v2.pdf defined gender codes. Use these along with Patient.gender element."
+    },
+    {
+      "url" : "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem",
+      "version" : "0.0.1",
+      "status" : "draft",
+      "name" : "ISO3166Part1Alpha3",
+      "title" : "ISO 3166-1 Alpha-3 Country Codes",
+      "description" : "This CodeSystem resource represents the ISO 3166-1 standard, 2020 edition for country codes, specifically the three-character (alpha-3) codes. It is intended to be a complete and canonical representation of the standard as a FHIR resource."
+    }
+  ]
+}

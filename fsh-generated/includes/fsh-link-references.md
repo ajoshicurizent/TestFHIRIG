@@ -1,0 +1,10 @@
+[LeanPatientGenderValueSet]: ValueSet-lean-patient-gender-valueset.html
+[LeanPatientGenderCodeSystem]: CodeSystem-lean-patient-gender-codesystem.html
+[LeanHumanLanguageExtension]: StructureDefinition-lean-human-language-extension.html
+[ISO3166Part1Alpha3]: CodeSystem-lean-patient-nationality-codesystem.html
+[patient-example-001]: Patient-patient-example-001.html
+[LeanCapabilityStatement]: CapabilityStatement-LeanCapabilityStatement.html
+[LeanCorePatientProfile]: StructureDefinition-lean-core-patient.html
+[LeanPatientNationalityExtension]: StructureDefinition-lean-patient-nationality-extension.html
+[LeanPatientNationalityValueSet]: ValueSet-lean-patient-nationality-valueset.html
+[LeanGenderExtension]: StructureDefinition-lean-patient-gender-extension.html

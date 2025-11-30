@@ -1,0 +1,82 @@
+[
+  {
+    "outputFile": "CapabilityStatement-LeanCapabilityStatement.json",
+    "fshName": "LeanCapabilityStatement",
+    "fshType": "Instance",
+    "fshFile": "LeanCoreCapabilityStatement.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "CodeSystem-lean-patient-gender-codesystem.json",
+    "fshName": "LeanPatientGenderCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystem-lean-patient-gender.fsh",
+    "startLine": 3,
+    "endLine": 15
+  },
+  {
+    "outputFile": "CodeSystem-lean-patient-nationality-codesystem.json",
+    "fshName": "ISO3166Part1Alpha3",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystem-lean-patient-nationality.fsh",
+    "startLine": 3,
+    "endLine": 260
+  },
+  {
+    "outputFile": "Patient-patient-example-001.json",
+    "fshName": "patient-example-001",
+    "fshType": "Instance",
+    "fshFile": "patient-resource-instance-example-001.fsh",
+    "startLine": 3,
+    "endLine": 43
+  },
+  {
+    "outputFile": "StructureDefinition-lean-core-patient.json",
+    "fshName": "LeanCorePatientProfile",
+    "fshType": "Profile",
+    "fshFile": "LeanCorePatientStructureDefinition.fsh",
+    "startLine": 5,
+    "endLine": 47
+  },
+  {
+    "outputFile": "StructureDefinition-lean-human-language-extension.json",
+    "fshName": "LeanHumanLanguageExtension",
+    "fshType": "Extension",
+    "fshFile": "extension-human-language.fsh",
+    "startLine": 8,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-lean-patient-gender-extension.json",
+    "fshName": "LeanGenderExtension",
+    "fshType": "Extension",
+    "fshFile": "extension-patient-gender.fsh",
+    "startLine": 3,
+    "endLine": 11
+  },
+  {
+    "outputFile": "StructureDefinition-lean-patient-nationality-extension.json",
+    "fshName": "LeanPatientNationalityExtension",
+    "fshType": "Extension",
+    "fshFile": "extension-patient-nationality.fsh",
+    "startLine": 3,
+    "endLine": 16
+  },
+  {
+    "outputFile": "ValueSet-lean-patient-gender-valueset.json",
+    "fshName": "LeanPatientGenderValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "lean-patient-gender-valueset.fsh",
+    "startLine": 3,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-lean-patient-nationality-valueset.json",
+    "fshName": "LeanPatientNationalityValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "lean-patient-nationality-valueset.fsh",
+    "startLine": 3,
+    "endLine": 9
+  }
+]

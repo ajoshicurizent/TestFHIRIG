@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "LeanPatientGenderValueSet",
+  "id": "lean-patient-gender-valueset",
+  "title": "Gender (Saudi-Health-Data-Dictionary-v2 sex)",
+  "description": "ValueSet for the Saudi-Health-Data-Dictionary-v2 gender codes.",
+  "url": "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "version": "0.0.1",
+  "copyright": "Used by permission of Lean Business Services. ",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "https://lean.sa/"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"
+      }
+    ]
+  }
+}

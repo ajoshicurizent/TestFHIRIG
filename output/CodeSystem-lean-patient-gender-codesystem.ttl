@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lean-patient-gender-codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem lean-patient-gender-codesystem</b></p><a name=\"lean-patient-gender-codesystem\"> </a><a name=\"hclean-patient-gender-codesystem\"> </a><p>This case-sensitive code system <code>http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"lean-patient-gender-codesystem-A\"> </a></td><td>Sex changed to Male</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"lean-patient-gender-codesystem-B\"> </a></td><td>Sex changed to female</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"lean-patient-gender-codesystem-C\"> </a></td><td>Not Completed</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"lean-patient-gender-codesystem-F\"> </a></td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"lean-patient-gender-codesystem-M\"> </a></td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">K<a name=\"lean-patient-gender-codesystem-K\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"lean-patient-gender-codesystem-U\"> </a></td><td>Undetermined</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"^^xsd:anyURI ;
+     fhir:l <http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1"] ; # 
+  fhir:name [ fhir:v "LeanPatientGenderCodeSystem"] ; # 
+  fhir:title [ fhir:v "Gender codes (Saudi-Health-Data-Dictionary-v2 sex codes)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-25T15:32:46+03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Lean Business Service, KSA"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Lean Business Service, KSA" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "https://lean.sa/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Saudi-Health-Data-Dictionary-v2.pdf defined gender codes. Use these along with Patient.gender element."] ; # 
+  fhir:copyright [ fhir:v "Used by permission of Lean Business Services. "] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "Sex changed to Male" ]
+  ] [
+     fhir:code [ fhir:v "B" ] ;
+     fhir:display [ fhir:v "Sex changed to female" ]
+  ] [
+     fhir:code [ fhir:v "C" ] ;
+     fhir:display [ fhir:v "Not Completed" ]
+  ] [
+     fhir:code [ fhir:v "F" ] ;
+     fhir:display [ fhir:v "Female" ]
+  ] [
+     fhir:code [ fhir:v "M" ] ;
+     fhir:display [ fhir:v "Male" ]
+  ] [
+     fhir:code [ fhir:v "K" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] [
+     fhir:code [ fhir:v "U" ] ;
+     fhir:display [ fhir:v "Undetermined" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

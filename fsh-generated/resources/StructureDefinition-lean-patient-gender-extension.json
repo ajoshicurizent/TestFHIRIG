@@ -1,0 +1,68 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "lean-patient-gender-extension",
+  "url": "http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-gender-extension",
+  "version": "0.0.1",
+  "name": "LeanGenderExtension",
+  "title": "Patient Gender Extension",
+  "status": "draft",
+  "experimental": false,
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "https://lean.sa/"
+        }
+      ]
+    }
+  ],
+  "description": "To map and write gender codes defined by the Saudi-Health-Data-Dictionary-v2.pdf. There are additional codes than just male and female defined by this specification. Use this extension along with Patient.gender element. Saudi-Health-Data-Dictionary-v2.pdf includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with this definition of Sex: This field contains a code which defines the sex of the patient. It enables systems to share the sex value as it was documented in a particular context.",
+  "copyright": "Used by permission of Lean Business Services. ",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "expression": "Patient",
+      "type": "element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Patient Gender Extension",
+        "definition": "To map and write gender codes defined by the Saudi-Health-Data-Dictionary-v2.pdf. There are additional codes than just male and female defined by this specification. Use this extension along with Patient.gender element. Saudi-Health-Data-Dictionary-v2.pdf includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with this definition of Sex: This field contains a code which defines the sex of the patient. It enables systems to share the sex value as it was documented in a particular context."
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-gender-extension"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset"
+        }
+      }
+    ]
+  }
+}
