@@ -1,0 +1,20 @@
+MyfirstSUSHIProject
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\Patient-patient-example-001.json: line 12, col 8, Info - Reference to draft CodeSystem http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem|0.0.1 (BUSINESSRULE)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\Patient-patient-example-001.json: line 26, col 12, Info - Reference to draft CodeSystem http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem|0.0.1 (BUSINESSRULE)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\Patient-patient-example-001.json: line 42, col 60, Warning - No definition could be found for URL value 'http://lean.sa/fhir/moi/patidentifier/nid' (INVALID)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 59625, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 80361, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 93504, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 109486, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 119778, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 129991, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\Users\AdityaJoshi\AppData\Roaming\npm\My-first-SUSHI-Project\fsh-generated\resources\StructureDefinition-lean-core-patient.json: line 1, col 157552, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+
+err = 0, warn = 5, info = 9
+IG Publisher Version: 2.0.26

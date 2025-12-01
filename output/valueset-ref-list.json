@@ -1,0 +1,46 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-lean-human-language-extension.html" : "Human Language Extension"
+    },
+    {
+      "url" : "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset",
+      "version" : "0.0.1",
+      "status" : "draft",
+      "name" : "LeanPatientGenderValueSet",
+      "title" : "Gender (Saudi-Health-Data-Dictionary-v2 sex)",
+      "description" : "ValueSet for the Saudi-Health-Data-Dictionary-v2 gender codes.",
+      "systems" : [
+        "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lean-patient-gender-extension.html" : "Patient Gender Extension"
+    },
+    {
+      "url" : "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-nationality-valueset",
+      "version" : "0.0.1",
+      "status" : "draft",
+      "name" : "LeanPatientNationalityValueSet",
+      "title" : "Nationality (ISO 3166-1 Alpha-3 Subset)",
+      "description" : "ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.",
+      "systems" : [
+        "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-lean-patient-nationality-extension.html" : "Lean Extension Patient Nationality"
+    }
+  ]
+}

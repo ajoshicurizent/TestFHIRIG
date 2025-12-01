@@ -1,0 +1,112 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://lean.sa/fhir/lean/core/Patient/patient-example-001> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "patient-example-001"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://lean.sa/fhir/lean/core/StructureDefinition/lean-core-patient"^^xsd:anyURI ;
+       fhir:l <http://lean.sa/fhir/lean/core/StructureDefinition/lean-core-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient patient-example-001</b></p><a name=\"patient-example-001\"> </a><a name=\"hcpatient-example-001\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-lean-core-patient.html\">Lean Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Abdulaziz Al Saud (official) Male, DoB: 1990-05-15 ( http://lean.sa/fhir/moi/patidentifier/nid#1234567891)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\">ph: 098 123 4567(Mobile)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The nationality of the patient. This element is to report patient nationality as per the ISO 3166-3 Standard , 2nd edition , 3-character alphabetic codes.\">Lean Extension Patient Nationality:</td><td colspan=\"3\"><ul><li>code: <span title=\"Codes:{http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem SAU}\">Saudi Arabia</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"To map and write gender codes defined by the Saudi-Health-Data-Dictionary-v2.pdf. There are additional codes than just male and female defined by this specification. Use this extension along with Patient.gender element. Saudi-Health-Data-Dictionary-v2.pdf includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with this definition of Sex: This field contains a code which defines the sex of the patient. It enables systems to share the sex value as it was documented in a particular context.\"><a href=\"StructureDefinition-lean-patient-gender-extension.html\">Patient Gender Extension</a></td><td colspan=\"3\"><span title=\"Codes:{http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem M}\">Male</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-gender-extension"^^xsd:anyURI ;
+       fhir:l <http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-gender-extension>
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"^^xsd:anyURI ;
+           fhir:l <http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem>
+         ] ;
+         fhir:code [ fhir:v "M" ] ;
+         fhir:display [ fhir:v "Male" ]
+       ] )
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "code"^^xsd:anyURI ;
+         fhir:l fhir:code
+       ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [
+             fhir:v "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem"^^xsd:anyURI ;
+             fhir:l <http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem>
+           ] ;
+           fhir:code [ fhir:v "SAU" ] ;
+           fhir:display [ fhir:v "Saudi Arabia" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-nationality-extension"^^xsd:anyURI ;
+       fhir:l <http://lean.sa/fhir/lean/core/StructureDefinition/lean-patient-nationality-extension>
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://lean.sa/fhir/moi/patidentifier/nid"^^xsd:anyURI ;
+       fhir:l <http://lean.sa/fhir/moi/patidentifier/nid>
+     ] ;
+     fhir:value [ fhir:v "1234567891" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Smith" ] ;
+     fhir:given ( [ fhir:v "Robert" ] )
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension"^^xsd:anyURI ;
+         fhir:l <http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "en"
+       ]
+     ] ) ;
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Al Saud" ] ;
+     fhir:given ( [ fhir:v "Abdulaziz" ] ) ;
+     fhir:prefix ( [ fhir:v "Mr." ] )
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension"^^xsd:anyURI ;
+         fhir:l <http://lean.sa/fhir/lean/core/StructureDefinition/lean-human-language-extension>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "ar"
+       ]
+     ] ) ;
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "آل سعود" ] ;
+     fhir:given ( [ fhir:v "عبدالعزيز" ] ) ;
+     fhir:prefix ( [ fhir:v "السيد." ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "098 123 4567" ] ;
+     fhir:use [ fhir:v "mobile" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1990-05-15"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

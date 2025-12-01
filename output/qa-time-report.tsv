@@ -1,0 +1,18 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-my.first.sushi.project.json	5422	-	0	0	0	0	0	0	7	70	0	0	0	0	0	0	0	1	0	0	76	95	0	0	0	2	0	3
+fsh-generated/resources/CapabilityStatement-LeanCapabilityStatement.json	1212	11	0	0	0	0	0	0	1	32	0	0	0	0	0	0	0	0	0	0	29	79	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-lean-patient-gender-codesystem.json	1204	8	0	0	0	0	0	0	0	16	0	0	1	0	0	0	0	0	0	0	27	547	0	0	0	0	0	0
+fsh-generated/resources/CodeSystem-lean-patient-nationality-codesystem.json	17086	14	0	0	1	0	0	0	5	33	0	0	0	0	0	0	0	0	0	0	142	253	0	0	0	9	0	0
+fsh-generated/resources/Patient-patient-example-001.json	2118	13	0	0	0	0	0	0	0	317	0	0	0	0	0	0	0	0	0	0	26	66	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-lean-core-patient.json	5512	9	0	155	0	0	0	0	0	89	0	0	0	0	0	0	0	2	0	0	828	1801	0	0	0	16	4	4
+fsh-generated/resources/StructureDefinition-lean-human-language-extension.json	1814	11	0	9	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	117	285	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-lean-patient-gender-extension.json	2777	12	0	12	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	88	253	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-lean-patient-nationality-extension.json	3435	9	0	12	0	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	218	306	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-lean-patient-gender-valueset.json	870	9	0	0	1	0	0	0	1	48	0	0	0	0	0	0	0	0	0	0	39	146	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-lean-patient-nationality-valueset.json	893	7	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	24	1353	0	0	0	0	0	0
+\fsh-generated\includes\fsh-link-references.md	764	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+\fsh-generated\includes\menu.xml	1061	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0
+\input\pagecontent\index.md	488	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+\template\config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+\template\config\_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+\temp\pages\_includes\artifacts.xml	8798	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
