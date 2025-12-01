@@ -1,0 +1,553 @@
+{
+  "date" : "Tue, 25 Nov, 2025 15:32:46 +0300",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "\\fsh-generated\\resources\\ImplementationGuide-my.first.sushi.project.json",
+      "size" : 5422,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 91,
+          "length" : 7
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 70
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 111766
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 208,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 209,
+          "length" : 76
+        },
+        {
+          "activity" : "generate2",
+          "start" : 417,
+          "length" : 95
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 474,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 484,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CapabilityStatement-LeanCapabilityStatement.json",
+      "size" : 1212,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 32
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 17
+        },
+        {
+          "activity" : "generate1",
+          "start" : 209,
+          "length" : 29
+        },
+        {
+          "activity" : "generate2",
+          "start" : 417,
+          "length" : 79
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lean-patient-gender-codesystem.json",
+      "size" : 1204,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 8
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 91,
+          "length" : 38
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 208,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 209,
+          "length" : 27
+        },
+        {
+          "activity" : "generate2",
+          "start" : 417,
+          "length" : 547
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lean-patient-nationality-codesystem.json",
+      "size" : 17086,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 91,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 33
+        },
+        {
+          "activity" : "validate",
+          "start" : 91,
+          "length" : 142
+        },
+        {
+          "activity" : "generate1",
+          "start" : 209,
+          "length" : 142
+        },
+        {
+          "activity" : "generate2",
+          "start" : 418,
+          "length" : 253
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 474,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Patient-patient-example-001.json",
+      "size" : 2118,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 13
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 317
+        },
+        {
+          "activity" : "validate",
+          "start" : 208,
+          "length" : 36
+        },
+        {
+          "activity" : "generate1",
+          "start" : 209,
+          "length" : 26
+        },
+        {
+          "activity" : "generate2",
+          "start" : 418,
+          "length" : 66
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lean-core-patient.json",
+      "size" : 5512,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 89,
+          "length" : 155
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 89
+        },
+        {
+          "activity" : "validate",
+          "start" : 92,
+          "length" : 593
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 208,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 209,
+          "length" : 828
+        },
+        {
+          "activity" : "generate2",
+          "start" : 418,
+          "length" : 1801
+        },
+        {
+          "activity" : "generate2",
+          "start" : 422,
+          "length" : 782
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 474,
+          "length" : 16
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 484,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 484,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lean-human-language-extension.json",
+      "size" : 1814,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 11
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 4
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 89,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 92,
+          "length" : 3908
+        },
+        {
+          "activity" : "generate1",
+          "start" : 210,
+          "length" : 117
+        },
+        {
+          "activity" : "generate2",
+          "start" : 420,
+          "length" : 285
+        },
+        {
+          "activity" : "generate2",
+          "start" : 423,
+          "length" : 46
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lean-patient-gender-extension.json",
+      "size" : 2777,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 6
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 89,
+          "length" : 12
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 34
+        },
+        {
+          "activity" : "generate1",
+          "start" : 210,
+          "length" : 88
+        },
+        {
+          "activity" : "generate2",
+          "start" : 420,
+          "length" : 253
+        },
+        {
+          "activity" : "generate2",
+          "start" : 423,
+          "length" : 44
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lean-patient-nationality-extension.json",
+      "size" : 3435,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 7
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 89,
+          "length" : 12
+        },
+        {
+          "activity" : "scan",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 108
+        },
+        {
+          "activity" : "generate1",
+          "start" : 210,
+          "length" : 218
+        },
+        {
+          "activity" : "generate2",
+          "start" : 421,
+          "length" : 306
+        },
+        {
+          "activity" : "generate2",
+          "start" : 423,
+          "length" : 59
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lean-patient-gender-valueset.json",
+      "size" : 870,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 9
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 4
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 91,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 48
+        },
+        {
+          "activity" : "validate",
+          "start" : 92,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 211,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 421,
+          "length" : 146
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lean-patient-nationality-valueset.json",
+      "size" : 893,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 89,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 89,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 91,
+          "length" : 10
+        },
+        {
+          "activity" : "validate",
+          "start" : 92,
+          "length" : 6
+        },
+        {
+          "activity" : "validate",
+          "start" : 208,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 211,
+          "length" : 24
+        },
+        {
+          "activity" : "generate2",
+          "start" : 421,
+          "length" : 1353
+        }
+      ]
+    },
+    {
+      "name" : "\\fsh-generated\\includes\\fsh-link-references.md",
+      "size" : 764
+    },
+    {
+      "name" : "\\fsh-generated\\includes\\menu.xml",
+      "size" : 1061,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 422,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "\\input\\pagecontent\\index.md",
+      "size" : 488
+    },
+    {
+      "name" : "\\template\\config",
+      "size" : 0
+    },
+    {
+      "name" : "\\template\\config\\_config.yml",
+      "size" : 140
+    },
+    {
+      "name" : "\\temp\\pages\\_includes\\artifacts.xml",
+      "size" : 8798
+    }
+  ]
+}

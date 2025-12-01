@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="lean-patient-gender-codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem lean-patient-gender-codesystem</b></p><a name="lean-patient-gender-codesystem"> </a><a name="hclean-patient-gender-codesystem"> </a><p>This case-sensitive code system <code>http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">A<a name="lean-patient-gender-codesystem-A"> </a></td><td>Sex changed to Male</td></tr><tr><td style="white-space:nowrap">B<a name="lean-patient-gender-codesystem-B"> </a></td><td>Sex changed to female</td></tr><tr><td style="white-space:nowrap">C<a name="lean-patient-gender-codesystem-C"> </a></td><td>Not Completed</td></tr><tr><td style="white-space:nowrap">F<a name="lean-patient-gender-codesystem-F"> </a></td><td>Female</td></tr><tr><td style="white-space:nowrap">M<a name="lean-patient-gender-codesystem-M"> </a></td><td>Male</td></tr><tr><td style="white-space:nowrap">K<a name="lean-patient-gender-codesystem-K"> </a></td><td>Unknown</td></tr><tr><td style="white-space:nowrap">U<a name="lean-patient-gender-codesystem-U"> </a></td><td>Undetermined</td></tr></table></div>
+  </text>
+  <url value="http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"/>
+  <version value="0.0.1"/>
+  <name value="LeanPatientGenderCodeSystem"/>
+  <title value="Gender codes (Saudi-Health-Data-Dictionary-v2 sex codes)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-11-25T15:32:46+03:00"/>
+  <publisher value="Lean Business Service, KSA"/>
+  <contact>
+    <name value="Lean Business Service, KSA"/>
+    <telecom>
+      <system value="email"/>
+      <value value="https://lean.sa/"/>
+    </telecom>
+  </contact>
+  <description value="Saudi-Health-Data-Dictionary-v2.pdf defined gender codes. Use these along with Patient.gender element."/>
+  <copyright value="Used by permission of Lean Business Services. "/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="A"/>
+    <display value="Sex changed to Male"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Sex changed to female"/>
+  </concept>
+  <concept>
+    <code value="C"/>
+    <display value="Not Completed"/>
+  </concept>
+  <concept>
+    <code value="F"/>
+    <display value="Female"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Male"/>
+  </concept>
+  <concept>
+    <code value="K"/>
+    <display value="Unknown"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="Undetermined"/>
+  </concept>
+</CodeSystem>

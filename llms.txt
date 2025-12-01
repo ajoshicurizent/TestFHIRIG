@@ -1,0 +1,40 @@
+# my.first.sushi.project#0.0.1: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Gender codes (Saudi-Health-Data-Dictionary-v2 sex codes)](CodeSystem-lean-patient-gender-codesystem.md)
+* [ISO 3166-1 Alpha-3 Country Codes](CodeSystem-lean-patient-nationality-codesystem.md)
+
+### ValueSets
+
+* [Gender (Saudi-Health-Data-Dictionary-v2 sex)](ValueSet-lean-patient-gender-valueset.md)
+* [Nationality (ISO 3166-1 Alpha-3 Subset)](ValueSet-lean-patient-nationality-valueset.md)
+
+### Resource Profiles
+
+* [Lean Core Patient Profile](StructureDefinition-lean-core-patient.md)
+
+### Extensions
+
+* [Human Language Extension](StructureDefinition-lean-human-language-extension.md)
+* [Patient Gender Extension](StructureDefinition-lean-patient-gender-extension.md)
+* [Lean Extension Patient Nationality](StructureDefinition-lean-patient-nationality-extension.md)
+
+### CapabilityStatements
+
+* [Lean Core Capability Statement](CapabilityStatement-LeanCapabilityStatement.md)
+
+### ImplementationGuides
+
+* [MyfirstSUSHIProject](index.md)
+
+### Examples
+
+* [patient-example-001 (Patient)](Patient-patient-example-001.md)

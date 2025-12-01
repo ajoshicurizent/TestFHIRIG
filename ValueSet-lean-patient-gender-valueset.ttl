@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lean-patient-gender-valueset"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet lean-patient-gender-valueset</b></p><a name=\"lean-patient-gender-valueset\"> </a><a name=\"hclean-patient-gender-valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-lean-patient-gender-codesystem.html\"><code>http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.0.1</span></li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset"^^xsd:anyURI ;
+     fhir:l <http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1"] ; # 
+  fhir:name [ fhir:v "LeanPatientGenderValueSet"] ; # 
+  fhir:title [ fhir:v "Gender (Saudi-Health-Data-Dictionary-v2 sex)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-25T15:32:46+03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Lean Business Service, KSA"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Lean Business Service, KSA" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "https://lean.sa/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "ValueSet for the Saudi-Health-Data-Dictionary-v2 gender codes."] ; # 
+  fhir:copyright [ fhir:v "Used by permission of Lean Business Services. "] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem"^^xsd:anyURI ;
+         fhir:l <http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-gender-codesystem>
+       ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

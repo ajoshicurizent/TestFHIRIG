@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://lean.sa/fhir/lean/core/ValueSet/lean-patient-gender-valueset,0.0.1,draft,,LeanPatientGenderValueSet,Gender (Saudi-Health-Data-Dictionary-v2 sex),"ValueSet for the Saudi-Health-Data-Dictionary-v2 gender codes.",,"Internal"
+http://lean.sa/fhir/lean/core/ValueSet/lean-patient-nationality-valueset,0.0.1,draft,,LeanPatientNationalityValueSet,Nationality (ISO 3166-1 Alpha-3 Subset),"ValueSet for the Countries represented using ISO 3166-1 alpha-3 codes.",,"Internal"

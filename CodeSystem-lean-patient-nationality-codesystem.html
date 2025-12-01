@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ISO 3166-1 Alpha-3 Country Codes -  v0.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2.9"}
+    h3,h4,h5,h6{--heading-prefix:"2.9"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.0.1 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ISO 3166-1 Alpha-3 Country Codes</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">MyfirstSUSHIProject - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://lean.sa/fhir/lean/core/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-lean-patient-nationality-codesystem.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-lean-patient-nationality-codesystem.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-lean-patient-nationality-codesystem.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: ISO 3166-1 Alpha-3 Country Codes
+
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem|0.0.1"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-11-25
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ISO3166Part1Alpha3</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> urn:ietf:rfc:3986#Uniform Resource Identifier (URI)#urn:iso:std:iso:3166
+      </td>
+    </tr>
+
+
+
+
+    <tr>
+      <td colspan="5"><p><em>Copyright/Legal</em>: Used by permission of Lean Business Services.</p>
+</td>
+    </tr>
+
+  </table>
+
+<p>
+<p>This CodeSystem resource represents the ISO 3166-1 standard, 2020 edition for country codes, specifically the three-character (alpha-3) codes. It is intended to be a complete and canonical representation of the standard as a FHIR resource.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-lean-patient-nationality-valueset.html">LeanPatientNationalityValueSet</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"></p><a name="lean-patient-nationality-codesystem"> </a><a name="hclean-patient-nationality-codesystem"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"></p><p style="margin-bottom: 0px">Information Source: <a href="https://en.wikipedia.org/wiki/ISO_3166-2">urn:iso:std:iso:3166</a></p></div><p>This case-sensitive code system <code>http://lean.sa/fhir/lean/core/CodeSystem/lean-patient-nationality-codesystem</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">AFG<a name="lean-patient-nationality-codesystem-AFG"> </a></td>
+<td>Afghanistan</td></tr>
+<tr><td style="white-space:nowrap">ALA<a name="lean-patient-nationality-codesystem-ALA"> </a></td>
+<td>Åland Islands</td></tr>
+<tr><td style="white-space:nowrap">ALB<a name="lean-patient-nationality-codesystem-ALB"> </a></td>
+<td>Albania</td></tr>
+<tr><td style="white-space:nowrap">DZA<a name="lean-patient-nationality-codesystem-DZA"> </a></td>
+<td>Algeria</td></tr>
+<tr><td style="white-space:nowrap">ASM<a name="lean-patient-nationality-codesystem-ASM"> </a></td>
+<td>American Samoa</td></tr>
+<tr><td style="white-space:nowrap">AND<a name="lean-patient-nationality-codesystem-AND"> </a></td>
+<td>Andorra</td></tr>
+<tr><td style="white-space:nowrap">AGO<a name="lean-patient-nationality-codesystem-AGO"> </a></td>
+<td>Angola</td></tr>
+<tr><td style="white-space:nowrap">AIA<a name="lean-patient-nationality-codesystem-AIA"> </a></td>
+<td>Anguilla</td></tr>
+<tr><td style="white-space:nowrap">ATA<a name="lean-patient-nationality-codesystem-ATA"> </a></td>
+<td>Antarctica</td></tr>
+<tr><td style="white-space:nowrap">ATG<a name="lean-patient-nationality-codesystem-ATG"> </a></td>
+<td>Antigua and Barbuda</td></tr>
+<tr><td style="white-space:nowrap">ARG<a name="lean-patient-nationality-codesystem-ARG"> </a></td>
+<td>Argentina</td></tr>
+<tr><td style="white-space:nowrap">ARM<a name="lean-patient-nationality-codesystem-ARM"> </a></td>
+<td>Armenia</td></tr>
+<tr><td style="white-space:nowrap">ABW<a name="lean-patient-nationality-codesystem-ABW"> </a></td>
+<td>Aruba</td></tr>
+<tr><td style="white-space:nowrap">AUS<a name="lean-patient-nationality-codesystem-AUS"> </a></td>
+<td>Australia</td></tr>
+<tr><td style="white-space:nowrap">AUT<a name="lean-patient-nationality-codesystem-AUT"> </a></td>
+<td>Austria</td></tr>
+<tr><td style="white-space:nowrap">AZE<a name="lean-patient-nationality-codesystem-AZE"> </a></td>
+<td>Azerbaijan</td></tr>
+<tr><td style="white-space:nowrap">BHS<a name="lean-patient-nationality-codesystem-BHS"> </a></td>
+<td>Bahamas</td></tr>
+<tr><td style="white-space:nowrap">BHR<a name="lean-patient-nationality-codesystem-BHR"> </a></td>
+<td>Bahrain</td></tr>
+<tr><td style="white-space:nowrap">BGD<a name="lean-patient-nationality-codesystem-BGD"> </a></td>
+<td>Bangladesh</td></tr>
+<tr><td style="white-space:nowrap">BRB<a name="lean-patient-nationality-codesystem-BRB"> </a></td>
+<td>Barbados</td></tr>
+<tr><td style="white-space:nowrap">BLR<a name="lean-patient-nationality-codesystem-BLR"> </a></td>
+<td>Belarus</td></tr>
+<tr><td style="white-space:nowrap">BEL<a name="lean-patient-nationality-codesystem-BEL"> </a></td>
+<td>Belgium</td></tr>
+<tr><td style="white-space:nowrap">BLZ<a name="lean-patient-nationality-codesystem-BLZ"> </a></td>
+<td>Belize</td></tr>
+<tr><td style="white-space:nowrap">BEN<a name="lean-patient-nationality-codesystem-BEN"> </a></td>
+<td>Benin</td></tr>
+<tr><td style="white-space:nowrap">BMU<a name="lean-patient-nationality-codesystem-BMU"> </a></td>
+<td>Bermuda</td></tr>
+<tr><td style="white-space:nowrap">BTN<a name="lean-patient-nationality-codesystem-BTN"> </a></td>
+<td>Bhutan</td></tr>
+<tr><td style="white-space:nowrap">BOL<a name="lean-patient-nationality-codesystem-BOL"> </a></td>
+<td>Bolivia</td></tr>
+<tr><td style="white-space:nowrap">BES<a name="lean-patient-nationality-codesystem-BES"> </a></td>
+<td>Bonaire, Sint Eustatius and Saba</td></tr>
+<tr><td style="white-space:nowrap">BIH<a name="lean-patient-nationality-codesystem-BIH"> </a></td>
+<td>Bosnia and Herzegovina</td></tr>
+<tr><td style="white-space:nowrap">BWA<a name="lean-patient-nationality-codesystem-BWA"> </a></td>
+<td>Botswana</td></tr>
+<tr><td style="white-space:nowrap">BVT<a name="lean-patient-nationality-codesystem-BVT"> </a></td>
+<td>Bouvet Island</td></tr>
+<tr><td style="white-space:nowrap">BRA<a name="lean-patient-nationality-codesystem-BRA"> </a></td>
+<td>Brazil</td></tr>
+<tr><td style="white-space:nowrap">IOT<a name="lean-patient-nationality-codesystem-IOT"> </a></td>
+<td>British Indian Ocean Territory</td></tr>
+<tr><td style="white-space:nowrap">BRN<a name="lean-patient-nationality-codesystem-BRN"> </a></td>
+<td>Brunei Darussalam</td></tr>
+<tr><td style="white-space:nowrap">BGR<a name="lean-patient-nationality-codesystem-BGR"> </a></td>
+<td>Bulgaria</td></tr>
+<tr><td style="white-space:nowrap">BFA<a name="lean-patient-nationality-codesystem-BFA"> </a></td>
+<td>Burkina Faso</td></tr>
+<tr><td style="white-space:nowrap">BDI<a name="lean-patient-nationality-codesystem-BDI"> </a></td>
+<td>Burundi</td></tr>
+<tr><td style="white-space:nowrap">CPV<a name="lean-patient-nationality-codesystem-CPV"> </a></td>
+<td>Cabo Verde</td></tr>
+<tr><td style="white-space:nowrap">KHM<a name="lean-patient-nationality-codesystem-KHM"> </a></td>
+<td>Cambodia</td></tr>
+<tr><td style="white-space:nowrap">CMR<a name="lean-patient-nationality-codesystem-CMR"> </a></td>
+<td>Cameroon</td></tr>
+<tr><td style="white-space:nowrap">CAN<a name="lean-patient-nationality-codesystem-CAN"> </a></td>
+<td>Canada</td></tr>
+<tr><td style="white-space:nowrap">CYM<a name="lean-patient-nationality-codesystem-CYM"> </a></td>
+<td>Cayman Islands</td></tr>
+<tr><td style="white-space:nowrap">CAF<a name="lean-patient-nationality-codesystem-CAF"> </a></td>
+<td>Central African Republic</td></tr>
+<tr><td style="white-space:nowrap">TCD<a name="lean-patient-nationality-codesystem-TCD"> </a></td>
+<td>Chad</td></tr>
+<tr><td style="white-space:nowrap">CHL<a name="lean-patient-nationality-codesystem-CHL"> </a></td>
+<td>Chile</td></tr>
+<tr><td style="white-space:nowrap">CHN<a name="lean-patient-nationality-codesystem-CHN"> </a></td>
+<td>China</td></tr>
+<tr><td style="white-space:nowrap">CXR<a name="lean-patient-nationality-codesystem-CXR"> </a></td>
+<td>Christmas Island</td></tr>
+<tr><td style="white-space:nowrap">CCK<a name="lean-patient-nationality-codesystem-CCK"> </a></td>
+<td>Cocos (Keeling) Islands</td></tr>
+<tr><td style="white-space:nowrap">COL<a name="lean-patient-nationality-codesystem-COL"> </a></td>
+<td>Colombia</td></tr>
+<tr><td style="white-space:nowrap">COM<a name="lean-patient-nationality-codesystem-COM"> </a></td>
+<td>Comoros</td></tr>
+<tr><td style="white-space:nowrap">COG<a name="lean-patient-nationality-codesystem-COG"> </a></td>
+<td>Congo</td></tr>
+<tr><td style="white-space:nowrap">COD<a name="lean-patient-nationality-codesystem-COD"> </a></td>
+<td>Congo, Democratic Republic of the</td></tr>
+<tr><td style="white-space:nowrap">COK<a name="lean-patient-nationality-codesystem-COK"> </a></td>
+<td>Cook Islands</td></tr>
+<tr><td style="white-space:nowrap">CRI<a name="lean-patient-nationality-codesystem-CRI"> </a></td>
+<td>Costa Rica</td></tr>
+<tr><td style="white-space:nowrap">CIV<a name="lean-patient-nationality-codesystem-CIV"> </a></td>
+<td>Côte d'Ivoire</td></tr>
+<tr><td style="white-space:nowrap">HRV<a name="lean-patient-nationality-codesystem-HRV"> </a></td>
+<td>Croatia</td></tr>
+<tr><td style="white-space:nowrap">CUB<a name="lean-patient-nationality-codesystem-CUB"> </a></td>
+<td>Cuba</td></tr>
+<tr><td style="white-space:nowrap">CUW<a name="lean-patient-nationality-codesystem-CUW"> </a></td>
+<td>Curaçao</td></tr>
+<tr><td style="white-space:nowrap">CYP<a name="lean-patient-nationality-codesystem-CYP"> </a></td>
+<td>Cyprus</td></tr>
+<tr><td style="white-space:nowrap">CZE<a name="lean-patient-nationality-codesystem-CZE"> </a></td>
+<td>Czechia</td></tr>
+<tr><td style="white-space:nowrap">DNK<a name="lean-patient-nationality-codesystem-DNK"> </a></td>
+<td>Denmark</td></tr>
+<tr><td style="white-space:nowrap">DJI<a name="lean-patient-nationality-codesystem-DJI"> </a></td>
+<td>Djibouti</td></tr>
+<tr><td style="white-space:nowrap">DMA<a name="lean-patient-nationality-codesystem-DMA"> </a></td>
+<td>Dominica</td></tr>
+<tr><td style="white-space:nowrap">DOM<a name="lean-patient-nationality-codesystem-DOM"> </a></td>
+<td>Dominican Republic</td></tr>
+<tr><td style="white-space:nowrap">ECU<a name="lean-patient-nationality-codesystem-ECU"> </a></td>
+<td>Ecuador</td></tr>
+<tr><td style="white-space:nowrap">EGY<a name="lean-patient-nationality-codesystem-EGY"> </a></td>
+<td>Egypt</td></tr>
+<tr><td style="white-space:nowrap">SLV<a name="lean-patient-nationality-codesystem-SLV"> </a></td>
+<td>El Salvador</td></tr>
+<tr><td style="white-space:nowrap">GNQ<a name="lean-patient-nationality-codesystem-GNQ"> </a></td>
+<td>Equatorial Guinea</td></tr>
+<tr><td style="white-space:nowrap">ERI<a name="lean-patient-nationality-codesystem-ERI"> </a></td>
+<td>Eritrea</td></tr>
+<tr><td style="white-space:nowrap">EST<a name="lean-patient-nationality-codesystem-EST"> </a></td>
+<td>Estonia</td></tr>
+<tr><td style="white-space:nowrap">SWZ<a name="lean-patient-nationality-codesystem-SWZ"> </a></td>
+<td>Eswatini</td></tr>
+<tr><td style="white-space:nowrap">ETH<a name="lean-patient-nationality-codesystem-ETH"> </a></td>
+<td>Ethiopia</td></tr>
+<tr><td style="white-space:nowrap">FLK<a name="lean-patient-nationality-codesystem-FLK"> </a></td>
+<td>Falkland Islands</td></tr>
+<tr><td style="white-space:nowrap">FRO<a name="lean-patient-nationality-codesystem-FRO"> </a></td>
+<td>Faroe Islands</td></tr>
+<tr><td style="white-space:nowrap">FJI<a name="lean-patient-nationality-codesystem-FJI"> </a></td>
+<td>Fiji</td></tr>
+<tr><td style="white-space:nowrap">FIN<a name="lean-patient-nationality-codesystem-FIN"> </a></td>
+<td>Finland</td></tr>
+<tr><td style="white-space:nowrap">FRA<a name="lean-patient-nationality-codesystem-FRA"> </a></td>
+<td>France</td></tr>
+<tr><td style="white-space:nowrap">GUF<a name="lean-patient-nationality-codesystem-GUF"> </a></td>
+<td>French Guiana</td></tr>
+<tr><td style="white-space:nowrap">PYF<a name="lean-patient-nationality-codesystem-PYF"> </a></td>
+<td>French Polynesia</td></tr>
+<tr><td style="white-space:nowrap">ATF<a name="lean-patient-nationality-codesystem-ATF"> </a></td>
+<td>French Southern Territories</td></tr>
+<tr><td style="white-space:nowrap">GAB<a name="lean-patient-nationality-codesystem-GAB"> </a></td>
+<td>Gabon</td></tr>
+<tr><td style="white-space:nowrap">GMB<a name="lean-patient-nationality-codesystem-GMB"> </a></td>
+<td>Gambia</td></tr>
+<tr><td style="white-space:nowrap">GEO<a name="lean-patient-nationality-codesystem-GEO"> </a></td>
+<td>Georgia</td></tr>
+<tr><td style="white-space:nowrap">DEU<a name="lean-patient-nationality-codesystem-DEU"> </a></td>
+<td>Germany</td></tr>
+<tr><td style="white-space:nowrap">GHA<a name="lean-patient-nationality-codesystem-GHA"> </a></td>
+<td>Ghana</td></tr>
+<tr><td style="white-space:nowrap">GIB<a name="lean-patient-nationality-codesystem-GIB"> </a></td>
+<td>Gibraltar</td></tr>
+<tr><td style="white-space:nowrap">GRC<a name="lean-patient-nationality-codesystem-GRC"> </a></td>
+<td>Greece</td></tr>
+<tr><td style="white-space:nowrap">GRL<a name="lean-patient-nationality-codesystem-GRL"> </a></td>
+<td>Greenland</td></tr>
+<tr><td style="white-space:nowrap">GRD<a name="lean-patient-nationality-codesystem-GRD"> </a></td>
+<td>Grenada</td></tr>
+<tr><td style="white-space:nowrap">GLP<a name="lean-patient-nationality-codesystem-GLP"> </a></td>
+<td>Guadeloupe</td></tr>
+<tr><td style="white-space:nowrap">GUM<a name="lean-patient-nationality-codesystem-GUM"> </a></td>
+<td>Guam</td></tr>
+<tr><td style="white-space:nowrap">GTM<a name="lean-patient-nationality-codesystem-GTM"> </a></td>
+<td>Guatemala</td></tr>
+<tr><td style="white-space:nowrap">GGY<a name="lean-patient-nationality-codesystem-GGY"> </a></td>
+<td>Guernsey</td></tr>
+<tr><td style="white-space:nowrap">GIN<a name="lean-patient-nationality-codesystem-GIN"> </a></td>
+<td>Guinea</td></tr>
+<tr><td style="white-space:nowrap">GNB<a name="lean-patient-nationality-codesystem-GNB"> </a></td>
+<td>Guinea-Bissau</td></tr>
+<tr><td style="white-space:nowrap">GUY<a name="lean-patient-nationality-codesystem-GUY"> </a></td>
+<td>Guyana</td></tr>
+<tr><td style="white-space:nowrap">HTI<a name="lean-patient-nationality-codesystem-HTI"> </a></td>
+<td>Haiti</td></tr>
+<tr><td style="white-space:nowrap">HMD<a name="lean-patient-nationality-codesystem-HMD"> </a></td>
+<td>Heard Island and McDonald Islands</td></tr>
+<tr><td style="white-space:nowrap">VAT<a name="lean-patient-nationality-codesystem-VAT"> </a></td>
+<td>Holy See</td></tr>
+<tr><td style="white-space:nowrap">HND<a name="lean-patient-nationality-codesystem-HND"> </a></td>
+<td>Honduras</td></tr>
+<tr><td style="white-space:nowrap">HKG<a name="lean-patient-nationality-codesystem-HKG"> </a></td>
+<td>Hong Kong</td></tr>
+<tr><td style="white-space:nowrap">HUN<a name="lean-patient-nationality-codesystem-HUN"> </a></td>
+<td>Hungary</td></tr>
+<tr><td style="white-space:nowrap">ISL<a name="lean-patient-nationality-codesystem-ISL"> </a></td>
+<td>Iceland</td></tr>
+<tr><td style="white-space:nowrap">IND<a name="lean-patient-nationality-codesystem-IND"> </a></td>
+<td>India</td></tr>
+<tr><td style="white-space:nowrap">IDN<a name="lean-patient-nationality-codesystem-IDN"> </a></td>
+<td>Indonesia</td></tr>
+<tr><td style="white-space:nowrap">IRN<a name="lean-patient-nationality-codesystem-IRN"> </a></td>
+<td>Iran</td></tr>
+<tr><td style="white-space:nowrap">IRQ<a name="lean-patient-nationality-codesystem-IRQ"> </a></td>
+<td>Iraq</td></tr>
+<tr><td style="white-space:nowrap">IRL<a name="lean-patient-nationality-codesystem-IRL"> </a></td>
+<td>Ireland</td></tr>
+<tr><td style="white-space:nowrap">IMN<a name="lean-patient-nationality-codesystem-IMN"> </a></td>
+<td>Isle of Man</td></tr>
+<tr><td style="white-space:nowrap">ISR<a name="lean-patient-nationality-codesystem-ISR"> </a></td>
+<td>Israel</td></tr>
+<tr><td style="white-space:nowrap">ITA<a name="lean-patient-nationality-codesystem-ITA"> </a></td>
+<td>Italy</td></tr>
+<tr><td style="white-space:nowrap">JAM<a name="lean-patient-nationality-codesystem-JAM"> </a></td>
+<td>Jamaica</td></tr>
+<tr><td style="white-space:nowrap">JPN<a name="lean-patient-nationality-codesystem-JPN"> </a></td>
+<td>Japan</td></tr>
+<tr><td style="white-space:nowrap">JEY<a name="lean-patient-nationality-codesystem-JEY"> </a></td>
+<td>Jersey</td></tr>
+<tr><td style="white-space:nowrap">JOR<a name="lean-patient-nationality-codesystem-JOR"> </a></td>
+<td>Jordan</td></tr>
+<tr><td style="white-space:nowrap">KAZ<a name="lean-patient-nationality-codesystem-KAZ"> </a></td>
+<td>Kazakhstan</td></tr>
+<tr><td style="white-space:nowrap">KEN<a name="lean-patient-nationality-codesystem-KEN"> </a></td>
+<td>Kenya</td></tr>
+<tr><td style="white-space:nowrap">KIR<a name="lean-patient-nationality-codesystem-KIR"> </a></td>
+<td>Kiribati</td></tr>
+<tr><td style="white-space:nowrap">PRK<a name="lean-patient-nationality-codesystem-PRK"> </a></td>
+<td>Korea, Democratic People's Republic of</td></tr>
+<tr><td style="white-space:nowrap">KOR<a name="lean-patient-nationality-codesystem-KOR"> </a></td>
+<td>Korea, Republic of</td></tr>
+<tr><td style="white-space:nowrap">KWT<a name="lean-patient-nationality-codesystem-KWT"> </a></td>
+<td>Kuwait</td></tr>
+<tr><td style="white-space:nowrap">KGZ<a name="lean-patient-nationality-codesystem-KGZ"> </a></td>
+<td>Kyrgyzstan</td></tr>
+<tr><td style="white-space:nowrap">LAO<a name="lean-patient-nationality-codesystem-LAO"> </a></td>
+<td>Lao People's Democratic Republic</td></tr>
+<tr><td style="white-space:nowrap">LVA<a name="lean-patient-nationality-codesystem-LVA"> </a></td>
+<td>Latvia</td></tr>
+<tr><td style="white-space:nowrap">LBN<a name="lean-patient-nationality-codesystem-LBN"> </a></td>
+<td>Lebanon</td></tr>
+<tr><td style="white-space:nowrap">LSO<a name="lean-patient-nationality-codesystem-LSO"> </a></td>
+<td>Lesotho</td></tr>
+<tr><td style="white-space:nowrap">LBR<a name="lean-patient-nationality-codesystem-LBR"> </a></td>
+<td>Liberia</td></tr>
+<tr><td style="white-space:nowrap">LBY<a name="lean-patient-nationality-codesystem-LBY"> </a></td>
+<td>Libya</td></tr>
+<tr><td style="white-space:nowrap">LIE<a name="lean-patient-nationality-codesystem-LIE"> </a></td>
+<td>Liechtenstein</td></tr>
+<tr><td style="white-space:nowrap">LTU<a name="lean-patient-nationality-codesystem-LTU"> </a></td>
+<td>Lithuania</td></tr>
+<tr><td style="white-space:nowrap">LUX<a name="lean-patient-nationality-codesystem-LUX"> </a></td>
+<td>Luxembourg</td></tr>
+<tr><td style="white-space:nowrap">MAC<a name="lean-patient-nationality-codesystem-MAC"> </a></td>
+<td>Macao</td></tr>
+<tr><td style="white-space:nowrap">MDG<a name="lean-patient-nationality-codesystem-MDG"> </a></td>
+<td>Madagascar</td></tr>
+<tr><td style="white-space:nowrap">MWI<a name="lean-patient-nationality-codesystem-MWI"> </a></td>
+<td>Malawi</td></tr>
+<tr><td style="white-space:nowrap">MYS<a name="lean-patient-nationality-codesystem-MYS"> </a></td>
+<td>Malaysia</td></tr>
+<tr><td style="white-space:nowrap">MDV<a name="lean-patient-nationality-codesystem-MDV"> </a></td>
+<td>Maldives</td></tr>
+<tr><td style="white-space:nowrap">MLI<a name="lean-patient-nationality-codesystem-MLI"> </a></td>
+<td>Mali</td></tr>
+<tr><td style="white-space:nowrap">MLT<a name="lean-patient-nationality-codesystem-MLT"> </a></td>
+<td>Malta</td></tr>
+<tr><td style="white-space:nowrap">MHL<a name="lean-patient-nationality-codesystem-MHL"> </a></td>
+<td>Marshall Islands</td></tr>
+<tr><td style="white-space:nowrap">MTQ<a name="lean-patient-nationality-codesystem-MTQ"> </a></td>
+<td>Martinique</td></tr>
+<tr><td style="white-space:nowrap">MRT<a name="lean-patient-nationality-codesystem-MRT"> </a></td>
+<td>Mauritania</td></tr>
+<tr><td style="white-space:nowrap">MUS<a name="lean-patient-nationality-codesystem-MUS"> </a></td>
+<td>Mauritius</td></tr>
+<tr><td style="white-space:nowrap">MYT<a name="lean-patient-nationality-codesystem-MYT"> </a></td>
+<td>Mayotte</td></tr>
+<tr><td style="white-space:nowrap">MEX<a name="lean-patient-nationality-codesystem-MEX"> </a></td>
+<td>Mexico</td></tr>
+<tr><td style="white-space:nowrap">FSM<a name="lean-patient-nationality-codesystem-FSM"> </a></td>
+<td>Micronesia</td></tr>
+<tr><td style="white-space:nowrap">MDA<a name="lean-patient-nationality-codesystem-MDA"> </a></td>
+<td>Moldova</td></tr>
+<tr><td style="white-space:nowrap">MCO<a name="lean-patient-nationality-codesystem-MCO"> </a></td>
+<td>Monaco</td></tr>
+<tr><td style="white-space:nowrap">MNG<a name="lean-patient-nationality-codesystem-MNG"> </a></td>
+<td>Mongolia</td></tr>
+<tr><td style="white-space:nowrap">MNE<a name="lean-patient-nationality-codesystem-MNE"> </a></td>
+<td>Montenegro</td></tr>
+<tr><td style="white-space:nowrap">MSR<a name="lean-patient-nationality-codesystem-MSR"> </a></td>
+<td>Montserrat</td></tr>
+<tr><td style="white-space:nowrap">MAR<a name="lean-patient-nationality-codesystem-MAR"> </a></td>
+<td>Morocco</td></tr>
+<tr><td style="white-space:nowrap">MOZ<a name="lean-patient-nationality-codesystem-MOZ"> </a></td>
+<td>Mozambique</td></tr>
+<tr><td style="white-space:nowrap">MMR<a name="lean-patient-nationality-codesystem-MMR"> </a></td>
+<td>Myanmar</td></tr>
+<tr><td style="white-space:nowrap">NAM<a name="lean-patient-nationality-codesystem-NAM"> </a></td>
+<td>Namibia</td></tr>
+<tr><td style="white-space:nowrap">NRU<a name="lean-patient-nationality-codesystem-NRU"> </a></td>
+<td>Nauru</td></tr>
+<tr><td style="white-space:nowrap">NPL<a name="lean-patient-nationality-codesystem-NPL"> </a></td>
+<td>Nepal</td></tr>
+<tr><td style="white-space:nowrap">NLD<a name="lean-patient-nationality-codesystem-NLD"> </a></td>
+<td>Netherlands</td></tr>
+<tr><td style="white-space:nowrap">NCL<a name="lean-patient-nationality-codesystem-NCL"> </a></td>
+<td>New Caledonia</td></tr>
+<tr><td style="white-space:nowrap">NZL<a name="lean-patient-nationality-codesystem-NZL"> </a></td>
+<td>New Zealand</td></tr>
+<tr><td style="white-space:nowrap">NIC<a name="lean-patient-nationality-codesystem-NIC"> </a></td>
+<td>Nicaragua</td></tr>
+<tr><td style="white-space:nowrap">NER<a name="lean-patient-nationality-codesystem-NER"> </a></td>
+<td>Niger</td></tr>
+<tr><td style="white-space:nowrap">NGA<a name="lean-patient-nationality-codesystem-NGA"> </a></td>
+<td>Nigeria</td></tr>
+<tr><td style="white-space:nowrap">NIU<a name="lean-patient-nationality-codesystem-NIU"> </a></td>
+<td>Niue</td></tr>
+<tr><td style="white-space:nowrap">NFK<a name="lean-patient-nationality-codesystem-NFK"> </a></td>
+<td>Norfolk Island</td></tr>
+<tr><td style="white-space:nowrap">MKD<a name="lean-patient-nationality-codesystem-MKD"> </a></td>
+<td>North Macedonia</td></tr>
+<tr><td style="white-space:nowrap">MNP<a name="lean-patient-nationality-codesystem-MNP"> </a></td>
+<td>Northern Mariana Islands</td></tr>
+<tr><td style="white-space:nowrap">NOR<a name="lean-patient-nationality-codesystem-NOR"> </a></td>
+<td>Norway</td></tr>
+<tr><td style="white-space:nowrap">OMN<a name="lean-patient-nationality-codesystem-OMN"> </a></td>
+<td>Oman</td></tr>
+<tr><td style="white-space:nowrap">PAK<a name="lean-patient-nationality-codesystem-PAK"> </a></td>
+<td>Pakistan</td></tr>
+<tr><td style="white-space:nowrap">PLW<a name="lean-patient-nationality-codesystem-PLW"> </a></td>
+<td>Palau</td></tr>
+<tr><td style="white-space:nowrap">PSE<a name="lean-patient-nationality-codesystem-PSE"> </a></td>
+<td>Palestine, State of</td></tr>
+<tr><td style="white-space:nowrap">PAN<a name="lean-patient-nationality-codesystem-PAN"> </a></td>
+<td>Panama</td></tr>
+<tr><td style="white-space:nowrap">PNG<a name="lean-patient-nationality-codesystem-PNG"> </a></td>
+<td>Papua New Guinea</td></tr>
+<tr><td style="white-space:nowrap">PRY<a name="lean-patient-nationality-codesystem-PRY"> </a></td>
+<td>Paraguay</td></tr>
+<tr><td style="white-space:nowrap">PER<a name="lean-patient-nationality-codesystem-PER"> </a></td>
+<td>Peru</td></tr>
+<tr><td style="white-space:nowrap">PHL<a name="lean-patient-nationality-codesystem-PHL"> </a></td>
+<td>Philippines</td></tr>
+<tr><td style="white-space:nowrap">PCN<a name="lean-patient-nationality-codesystem-PCN"> </a></td>
+<td>Pitcairn</td></tr>
+<tr><td style="white-space:nowrap">POL<a name="lean-patient-nationality-codesystem-POL"> </a></td>
+<td>Poland</td></tr>
+<tr><td style="white-space:nowrap">PRT<a name="lean-patient-nationality-codesystem-PRT"> </a></td>
+<td>Portugal</td></tr>
+<tr><td style="white-space:nowrap">PRI<a name="lean-patient-nationality-codesystem-PRI"> </a></td>
+<td>Puerto Rico</td></tr>
+<tr><td style="white-space:nowrap">QAT<a name="lean-patient-nationality-codesystem-QAT"> </a></td>
+<td>Qatar</td></tr>
+<tr><td style="white-space:nowrap">REU<a name="lean-patient-nationality-codesystem-REU"> </a></td>
+<td>Réunion</td></tr>
+<tr><td style="white-space:nowrap">ROU<a name="lean-patient-nationality-codesystem-ROU"> </a></td>
+<td>Romania</td></tr>
+<tr><td style="white-space:nowrap">RUS<a name="lean-patient-nationality-codesystem-RUS"> </a></td>
+<td>Russian Federation</td></tr>
+<tr><td style="white-space:nowrap">RWA<a name="lean-patient-nationality-codesystem-RWA"> </a></td>
+<td>Rwanda</td></tr>
+<tr><td style="white-space:nowrap">BLM<a name="lean-patient-nationality-codesystem-BLM"> </a></td>
+<td>Saint Barthélemy</td></tr>
+<tr><td style="white-space:nowrap">SHN<a name="lean-patient-nationality-codesystem-SHN"> </a></td>
+<td>Saint Helena, Ascension and Tristan da Cunha</td></tr>
+<tr><td style="white-space:nowrap">KNA<a name="lean-patient-nationality-codesystem-KNA"> </a></td>
+<td>Saint Kitts and Nevis</td></tr>
+<tr><td style="white-space:nowrap">LCA<a name="lean-patient-nationality-codesystem-LCA"> </a></td>
+<td>Saint Lucia</td></tr>
+<tr><td style="white-space:nowrap">MAF<a name="lean-patient-nationality-codesystem-MAF"> </a></td>
+<td>Saint Martin</td></tr>
+<tr><td style="white-space:nowrap">SPM<a name="lean-patient-nationality-codesystem-SPM"> </a></td>
+<td>Saint Pierre and Miquelon</td></tr>
+<tr><td style="white-space:nowrap">VCT<a name="lean-patient-nationality-codesystem-VCT"> </a></td>
+<td>Saint Vincent and the Grenadines</td></tr>
+<tr><td style="white-space:nowrap">WSM<a name="lean-patient-nationality-codesystem-WSM"> </a></td>
+<td>Samoa</td></tr>
+<tr><td style="white-space:nowrap">SMR<a name="lean-patient-nationality-codesystem-SMR"> </a></td>
+<td>San Marino</td></tr>
+<tr><td style="white-space:nowrap">STP<a name="lean-patient-nationality-codesystem-STP"> </a></td>
+<td>Sao Tome and Principe</td></tr>
+<tr><td style="white-space:nowrap">SAU<a name="lean-patient-nationality-codesystem-SAU"> </a></td>
+<td>Saudi Arabia</td></tr>
+<tr><td style="white-space:nowrap">SEN<a name="lean-patient-nationality-codesystem-SEN"> </a></td>
+<td>Senegal</td></tr>
+<tr><td style="white-space:nowrap">SRB<a name="lean-patient-nationality-codesystem-SRB"> </a></td>
+<td>Serbia</td></tr>
+<tr><td style="white-space:nowrap">SYC<a name="lean-patient-nationality-codesystem-SYC"> </a></td>
+<td>Seychelles</td></tr>
+<tr><td style="white-space:nowrap">SLE<a name="lean-patient-nationality-codesystem-SLE"> </a></td>
+<td>Sierra Leone</td></tr>
+<tr><td style="white-space:nowrap">SGP<a name="lean-patient-nationality-codesystem-SGP"> </a></td>
+<td>Singapore</td></tr>
+<tr><td style="white-space:nowrap">SXM<a name="lean-patient-nationality-codesystem-SXM"> </a></td>
+<td>Sint Maarten</td></tr>
+<tr><td style="white-space:nowrap">SVK<a name="lean-patient-nationality-codesystem-SVK"> </a></td>
+<td>Slovakia</td></tr>
+<tr><td style="white-space:nowrap">SVN<a name="lean-patient-nationality-codesystem-SVN"> </a></td>
+<td>Slovenia</td></tr>
+<tr><td style="white-space:nowrap">SLB<a name="lean-patient-nationality-codesystem-SLB"> </a></td>
+<td>Solomon Islands</td></tr>
+<tr><td style="white-space:nowrap">SOM<a name="lean-patient-nationality-codesystem-SOM"> </a></td>
+<td>Somalia</td></tr>
+<tr><td style="white-space:nowrap">ZAF<a name="lean-patient-nationality-codesystem-ZAF"> </a></td>
+<td>South Africa</td></tr>
+<tr><td style="white-space:nowrap">SGS<a name="lean-patient-nationality-codesystem-SGS"> </a></td>
+<td>South Georgia and the South Sandwich Islands</td></tr>
+<tr><td style="white-space:nowrap">SSD<a name="lean-patient-nationality-codesystem-SSD"> </a></td>
+<td>South Sudan</td></tr>
+<tr><td style="white-space:nowrap">ESP<a name="lean-patient-nationality-codesystem-ESP"> </a></td>
+<td>Spain</td></tr>
+<tr><td style="white-space:nowrap">LKA<a name="lean-patient-nationality-codesystem-LKA"> </a></td>
+<td>Sri Lanka</td></tr>
+<tr><td style="white-space:nowrap">SDN<a name="lean-patient-nationality-codesystem-SDN"> </a></td>
+<td>Sudan</td></tr>
+<tr><td style="white-space:nowrap">SUR<a name="lean-patient-nationality-codesystem-SUR"> </a></td>
+<td>Suriname</td></tr>
+<tr><td style="white-space:nowrap">SJM<a name="lean-patient-nationality-codesystem-SJM"> </a></td>
+<td>Svalbard and Jan Mayen</td></tr>
+<tr><td style="white-space:nowrap">SWE<a name="lean-patient-nationality-codesystem-SWE"> </a></td>
+<td>Sweden</td></tr>
+<tr><td style="white-space:nowrap">CHE<a name="lean-patient-nationality-codesystem-CHE"> </a></td>
+<td>Switzerland</td></tr>
+<tr><td style="white-space:nowrap">SYR<a name="lean-patient-nationality-codesystem-SYR"> </a></td>
+<td>Syrian Arab Republic</td></tr>
+<tr><td style="white-space:nowrap">TWN<a name="lean-patient-nationality-codesystem-TWN"> </a></td>
+<td>Taiwan</td></tr>
+<tr><td style="white-space:nowrap">TJK<a name="lean-patient-nationality-codesystem-TJK"> </a></td>
+<td>Tajikistan</td></tr>
+<tr><td style="white-space:nowrap">TZA<a name="lean-patient-nationality-codesystem-TZA"> </a></td>
+<td>Tanzania</td></tr>
+<tr><td style="white-space:nowrap">THA<a name="lean-patient-nationality-codesystem-THA"> </a></td>
+<td>Thailand</td></tr>
+<tr><td style="white-space:nowrap">TLS<a name="lean-patient-nationality-codesystem-TLS"> </a></td>
+<td>Timor-Leste</td></tr>
+<tr><td style="white-space:nowrap">TGO<a name="lean-patient-nationality-codesystem-TGO"> </a></td>
+<td>Togo</td></tr>
+<tr><td style="white-space:nowrap">TKL<a name="lean-patient-nationality-codesystem-TKL"> </a></td>
+<td>Tokelau</td></tr>
+<tr><td style="white-space:nowrap">TON<a name="lean-patient-nationality-codesystem-TON"> </a></td>
+<td>Tonga</td></tr>
+<tr><td style="white-space:nowrap">TTO<a name="lean-patient-nationality-codesystem-TTO"> </a></td>
+<td>Trinidad and Tobago</td></tr>
+<tr><td style="white-space:nowrap">TUN<a name="lean-patient-nationality-codesystem-TUN"> </a></td>
+<td>Tunisia</td></tr>
+<tr><td style="white-space:nowrap">TUR<a name="lean-patient-nationality-codesystem-TUR"> </a></td>
+<td>Turkey</td></tr>
+<tr><td style="white-space:nowrap">TKM<a name="lean-patient-nationality-codesystem-TKM"> </a></td>
+<td>Turkmenistan</td></tr>
+<tr><td style="white-space:nowrap">TCA<a name="lean-patient-nationality-codesystem-TCA"> </a></td>
+<td>Turks and Caicos Islands</td></tr>
+<tr><td style="white-space:nowrap">TUV<a name="lean-patient-nationality-codesystem-TUV"> </a></td>
+<td>Tuvalu</td></tr>
+<tr><td style="white-space:nowrap">UGA<a name="lean-patient-nationality-codesystem-UGA"> </a></td>
+<td>Uganda</td></tr>
+<tr><td style="white-space:nowrap">UKR<a name="lean-patient-nationality-codesystem-UKR"> </a></td>
+<td>Ukraine</td></tr>
+<tr><td style="white-space:nowrap">ARE<a name="lean-patient-nationality-codesystem-ARE"> </a></td>
+<td>United Arab Emirates</td></tr>
+<tr><td style="white-space:nowrap">GBR<a name="lean-patient-nationality-codesystem-GBR"> </a></td>
+<td>United Kingdom</td></tr>
+<tr><td style="white-space:nowrap">USA<a name="lean-patient-nationality-codesystem-USA"> </a></td>
+<td>United States of America</td></tr>
+<tr><td style="white-space:nowrap">UMI<a name="lean-patient-nationality-codesystem-UMI"> </a></td>
+<td>United States Minor Outlying Islands</td></tr>
+<tr><td style="white-space:nowrap">URY<a name="lean-patient-nationality-codesystem-URY"> </a></td>
+<td>Uruguay</td></tr>
+<tr><td style="white-space:nowrap">UZB<a name="lean-patient-nationality-codesystem-UZB"> </a></td>
+<td>Uzbekistan</td></tr>
+<tr><td style="white-space:nowrap">VUT<a name="lean-patient-nationality-codesystem-VUT"> </a></td>
+<td>Vanuatu</td></tr>
+<tr><td style="white-space:nowrap">VEN<a name="lean-patient-nationality-codesystem-VEN"> </a></td>
+<td>Venezuela</td></tr>
+<tr><td style="white-space:nowrap">VNM<a name="lean-patient-nationality-codesystem-VNM"> </a></td>
+<td>Vietnam</td></tr>
+<tr><td style="white-space:nowrap">VGB<a name="lean-patient-nationality-codesystem-VGB"> </a></td>
+<td>Virgin Islands, British</td></tr>
+<tr><td style="white-space:nowrap">VIR<a name="lean-patient-nationality-codesystem-VIR"> </a></td>
+<td>Virgin Islands, U.S.</td></tr>
+<tr><td style="white-space:nowrap">WLF<a name="lean-patient-nationality-codesystem-WLF"> </a></td>
+<td>Wallis and Futuna</td></tr>
+<tr><td style="white-space:nowrap">ESH<a name="lean-patient-nationality-codesystem-ESH"> </a></td>
+<td>Western Sahara</td></tr>
+<tr><td style="white-space:nowrap">YEM<a name="lean-patient-nationality-codesystem-YEM"> </a></td>
+<td>Yemen</td></tr>
+<tr><td style="white-space:nowrap">ZMB<a name="lean-patient-nationality-codesystem-ZMB"> </a></td>
+<td>Zambia</td></tr>
+<tr><td style="white-space:nowrap">ZWE<a name="lean-patient-nationality-codesystem-ZWE"> </a></td>
+<td>Zimbabwe</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://lean.sa/">Lean Business Service, KSA</a>.  Package my.first.sushi.project#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 25, 2025 15:32+0300">2025-11-25</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
